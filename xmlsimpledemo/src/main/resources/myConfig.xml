@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <base-config>
+	     <stringValue>Hello world</stringValue>
+		 <integerValue>8</integerValue>
+		 <longValue>32768</longValue>
+	</base-config>
+	
+	<books>
+        <book id="111"> 
+            <name>Java 编程</name>
+			<price>33</price>            
+        </book>
+        <book id="222">
+            <name>Spring学习指南</name>
+            <price>55</price>
+        </book>
+    </books>
+      
+    <computers>
+        <computer type="dell" size="14寸" />
+        <computer type="thinkpad" size="16寸" />
+        <computer type="apple" size="22寸" />
+    </computers>
+</config>
